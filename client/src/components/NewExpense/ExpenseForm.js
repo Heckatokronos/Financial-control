@@ -72,7 +72,7 @@ const ExpenseForm = memo((props) => {
       </div>
       <div className='new-expense__actions'>
         <button type='button' onClick={props.onCancel}> Закрыть окно </button>
-        <button type='submit'>Добавить затраты</button>
+        <button type='submit'>Добавить покупку</button>
       </div>
     </form>
   )

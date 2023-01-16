@@ -26,7 +26,7 @@ const NewExpense = memo((props) => {
 
   return (
     <div className='new-expense'>
-      {!isEditing && <button onClick={startEditingHandler}> Добавить новые затраты</button>}
+      {!isEditing && <button onClick={startEditingHandler}> Добавить новую покупку</button>}
       {isEditing && <ExpenseForm
         onSaveExpenseData={saveExpenseDataHandler}
         onCancel={stopEditingHandler}
